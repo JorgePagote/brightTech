@@ -1,0 +1,119 @@
+.contenedor {
+    font-family: Arial, Helvetica, sans-serif;
+    //font-size: 16px;
+}
+
+.contenido {
+    padding: 50px;
+    font-weight: bold;
+    
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    //font-size: 16px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    //font-size: 16px;
+    margin-top: 40px;
+}
+
+//sin
+/*.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+    border: 1px solid rgb(70, 39, 110);
+    border-radius: 50px;
+    transition: all 0.4s;
+    width: 200px;
+}*/
+
+//apilado
+.menu-horizontal {
+
+    li {
+        a{
+            display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+    border: 1px solid rgb(70, 39, 110);
+    border-radius: 50px;
+    transition: all 0.4s;
+    width: 200px;
+        }
+    }
+}
+
+.menu-horizontal > li > a:hover {
+    transform: scale(1.1);
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    text-decoration: none;
+    width: 200px;
+    height: 150px;
+    font-size: 16px;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+    padding-top: 10px;
+}
+
+.menu-vertical li:hover{
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.4s;
+    width: 200px;
+}
+
+//sin apilar
+/*.menu-vertical li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: all 0.4s;
+    width: 200px;
+    padding: 5px;
+}*/
+
+
+// apilado
+.menu-vertical {
+    li {
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            border-radius: 50px;
+            transition: all 0.4s;
+            width: 200px;
+            padding: 5px; 
+        }
+    }
+}
+
+

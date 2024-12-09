@@ -1,0 +1,24 @@
+@use 'variables';
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: variables.$colorprincipal;
+    font-family: variables.$letraprincipal;
+    font-size: variables.$tamanoletra;
+}
+
+.encabezado {
+    background: linear-gradient(blue, green);
+}
+
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
